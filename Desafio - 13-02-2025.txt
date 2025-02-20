@@ -1,0 +1,59 @@
+Organização para aula: 13/02/2025
+
+https://automationpratice.com.br/
+
+Criem em um arquivo excel ou google sheet o mapeamento da aplicação que será automatizada (importante, façam primeiro o exploratório na aplicação, conheçam o ambiente antes de começar a codar):
+
+Os tópicos abaixo servirão de guia para os demais cenários.
+
+Abrir navegador
+Fechar navegador
+
+Cenário de teste 01: Validando Home Page
+	Abrir navegador
+	Deve conter o title {title} do site {site}
+	Fechar navegador
+
+Cenário de teste 02: Cadastrando usuário com dados validos
+	Abrir navegador
+	Deve conter o title {title} do site {site}
+	Aguardar o elemento de texto clicavel esteja visível
+	Deve poder clicar no texto clicavel {cadastro}
+	Validando se a tela é a correta Titulo da tela {cadastro_de_usuario}
+	Preenchendo formulario de cadastro
+	Aguardar o elemento do campo Nome ficar visível
+	Deve poder digitar no campo Nome
+	Deve poder digitar no campo E-mail
+	Deve poder digitar no campo Senha
+	Deve poder clicar no botão {cadastrar}
+	Deve validar o sucesso do cadastro
+	Fechar navegador
+
+Cenário de teste 03: Realizando Login com usuario valido
+	
+
+Cenário de teste 04: Validando acesso a todas as telas da aplicacao
+	
+
+Cenário de teste 05: Modo de exibição - Lista
+
+
+Cenário de teste 06: Modo de exibição - Card três colunas
+
+
+Cenário de teste 07: Modo de exibição - Card quatro colunas
+
+
+Cenário de teste 08: Pesquisa por produto na Lupa
+
+
+Cenário de teste 09: Ordenar por mais Populares 
+
+
+Cenário de teste 10: Ordenar por mais Vendido
+
+
+Cenário de teste 11: Ordenar por Tendencia
+
+
+Cenário de teste 12: Ordenar por Destaque 

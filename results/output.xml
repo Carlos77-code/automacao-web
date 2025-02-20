@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-02-13T20:45:12.638344" rpa="false" schemaversion="5">
+<suite id="s1" name="Treinamento-de-automacao" source="D:\carlo\Projetos\Treinamento-de-automacao">
+<suite id="s1-s1" name="Tests" source="D:\carlo\Projetos\Treinamento-de-automacao\Tests">
+<suite id="s1-s1-s1" name="Suites" source="D:\carlo\Projetos\Treinamento-de-automacao\Tests\Suites">
+<suite id="s1-s1-s1-s1" name="Test cadastro cliente" source="D:\carlo\Projetos\Treinamento-de-automacao\Tests\Suites\Test_cadastro_cliente.robot">
+<test id="s1-s1-s1-s1-t1" name="Cenário de teste 01: Validando Home Page" line="12">
+<kw name="Abrir navegador" owner="Hooks" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-02-13T20:45:13.121861" level="INFO">Opening browser 'chrome' to base url 'https://automationpratice.com.br/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-02-13T20:45:13.121461" elapsed="3.659129"/>
+</kw>
+<status status="PASS" start="2025-02-13T20:45:13.120572" elapsed="3.660505"/>
+</kw>
+<kw name="Deve conter o title title do site Site" owner="Page_cadastro_cliente">
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2025-02-13T20:45:16.808749" level="INFO">Page title is 'QAZANDO Shop E-Commerce'.</msg>
+<arg>QAZANDO Shop E-Commerce</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2025-02-13T20:45:16.784407" elapsed="0.025335"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-13T20:45:19.813056" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-13T20:45:16.810391" elapsed="3.003218"/>
+</kw>
+<status status="PASS" start="2025-02-13T20:45:16.783085" elapsed="3.030814"/>
+</kw>
+<kw name="Fechar navegador" owner="Hooks" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-02-13T20:45:19.815925" elapsed="2.591834"/>
+</kw>
+<status status="PASS" start="2025-02-13T20:45:19.814827" elapsed="2.593393"/>
+</kw>
+<tag>Validar_title_da_page</tag>
+<status status="PASS" start="2025-02-13T20:45:13.118495" elapsed="9.290165"/>
+</test>
+<doc>Aqui ficarão os steps da aplicação bla bla bla</doc>
+<status status="PASS" start="2025-02-13T20:45:12.684831" elapsed="9.726125"/>
+</suite>
+<status status="PASS" start="2025-02-13T20:45:12.680506" elapsed="9.733041"/>
+</suite>
+<status status="PASS" start="2025-02-13T20:45:12.676737" elapsed="9.740103"/>
+</suite>
+<status status="PASS" start="2025-02-13T20:45:12.646189" elapsed="9.773662"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Validar_title_da_page</stat>
+</tag>
+<suite>
+<stat name="Treinamento-de-automacao" id="s1" pass="1" fail="0" skip="0">Treinamento-de-automacao</stat>
+<stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">Treinamento-de-automacao.Tests</stat>
+<stat name="Suites" id="s1-s1-s1" pass="1" fail="0" skip="0">Treinamento-de-automacao.Tests.Suites</stat>
+<stat name="Test cadastro cliente" id="s1-s1-s1-s1" pass="1" fail="0" skip="0">Treinamento-de-automacao.Tests.Suites.Test cadastro cliente</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
